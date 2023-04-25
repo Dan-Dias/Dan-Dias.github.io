@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* scrollbar for Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #90d4b6 #263229;
+  }
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #263229;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #90d4b6;
+    border-radius: 30px;
+    border: 2px solid #000000;
+}
+
+/* main */
+.certificate-contents {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.left-section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #263229;
+    padding: 2rem;
+}
+
+.right-section {
+    grid-column: span 6;
+    height: 100%;
+    background-color: #425546;
+}
+
+.left-section-content{
+    padding: 1.5rem;
+    
+}
+
+.left-title {
+    color: #90d4b6;
+    font-size: min(35px, 2.5vw);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1.5rem 0;   
+}
+
+.award-title {
+    display: flex;
+    color: #ffffffd3;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.award-text{
+    display: flex;
+    color: #d7dfd6af;
+    font-size: 16px;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.fa {
+    padding-right: 0.2rem;
+}
+
+.alura-class a {
+    color: #d7dfd6af;
+    font-weight: bold;
+    text-decoration: none;   
+} 
+
+.alura-class a:hover {
+    color: #2ec144;
+    text-decoration: underline;
+    text-shadow: #425546 0 0 0.5em;
+}
+
+.alura-text {
+    color: #90d4b6;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 1rem .5rem;
+}
+
+.back-class a {
+    color: #BBBBBB;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+.back-class a:hover {
+    color: #2ec144;
+    text-decoration: underline;
+    text-shadow: #425546 0 0 0.5em;
+}
+
+.back-title {
+    color: #90d4b6;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0 0 1.5rem;
+}
+
+.List{
+    padding: 1rem 0;
+}
+
+/* Chekeds principais */
+
+.award-hamburguer-facul, 
+.award-hamburguer-alura,
+.award-hamburguer-idioma,
+.award-hamburguer-cursos,
+.award-hamburguer-impressoras,
+.award-hamburguer-tecnico{
+    color: #ffffffd3;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.list-box-facul, 
+.list-box-alura,
+.list-box-idioma,
+.list-box-cursos,
+.list-box-impressoras,
+.list-box-tecnico,
+.list-box-impressoras-geral, .list-box-impressoras-pc, .list-box-impressoras-impressoras{
+    display: none;
+}
+
+.award-buton-facul:checked ~ .list-box-facul,
+.award-buton-alura:checked ~ .list-box-alura,
+.award-buton-idioma:checked ~ .list-box-idioma,
+.award-buton-cursos:checked ~ .list-box-cursos,
+.award-buton-impressoras:checked ~ .list-box-impressoras,
+.award-buton-tecnico:checked ~ .list-box-tecnico,
+.award-buton-impressoras-geral:checked ~ .list-box-impressoras-geral,
+.award-buton-impressoras-pc:checked ~ .list-box-impressoras-pc,
+.award-buton-impressoras-impressoras:checked ~ .list-box-impressoras-impressoras {
+    display: block;
+}
+
+/* checkeds secundarios */
+
+.alura01, .alura02, .alura03, .alura-qa,
+.facul01, .facul02,
+.cursos-jogos, .cursos-design, .cursos-informatica, .cursos-micro,
+.idioma-espanhol, 
+.tecnico-eletricidade, .tecnico-eletronica-industrial, .tecnico-eletronica,
+.impressoras-geral, .impressoras-pc, .impressoras-impressoras {
+display: block;
+padding: .5rem;
+position: relative;
+}
+
+.impressoras-aduaneira, .impressoras-etica, .impressoras-serviço, .impressoras-projeto, .impressoras-carreira, .impressoras-institucional,
+.impressoras-tempo, .impressoras-lgpd, .impressoras-diversidade, .impressoras-conectividade, .impressoras-soft-skills, .impressoras-tecnologia,
+.impressoras-segurança, .impressoras-ofs, .impressoras-desenvolver,
+.pc-chromebook, .pc-desktop, .pc-elite, .pc-elitebook, .pc-elitedesk, .pc-fundamentos, .pc-z8, .pc-probook, .pc-segurança_pc, .pc-zbook,
+.impressoras-4580, .impressoras-copia, .impressoras-cor, .impressoras-fw, .impressoras-formater, .impressoras-scanjet, .impressoras-plotter,
+.impressoras-tonner, .impressoras-7400, .impressoras-zebra{
+    display: block;
+    padding: .5rem 1rem;
+    position: relative;
+ }
+
+.alura1, .alura2, .alura3,.qa,.qa_1,
+.alura1_1, .alura2_1, .alura3_1,
+.facul1, .facul2, .facul1_1, .facul2_1,
+.aduaneira, .aduaneira_1,
+.etica, .etica_1,
+.serviço, .serviço_1,
+.projeto, .projeto_1,
+.carreira, .carreira_1,
+.institucional, .institucional_1,
+.tempo, .tempo_1,
+.lgpd, .lgpd_1,
+.diversidade, .diversidade_1,
+.conectividade, .conectividade_1,
+.soft-skills, .soft-skills_1,
+.tecnologia, .tecnologia_1,
+.segurança, .segurança_1,
+.ofs, .ofs_1,
+.desenvolver, .desenvolver_1,
+.jogos, .jogos_1,
+.design, .design_1,
+.eletricidade, .eletricidade_1,
+.eletronica-industrial, .eletronica-industrial_1,
+.informatica, .informatica_1,
+.micro, .micro_1,
+.espanhol, .espanhol_1,
+.eletronica, .eletronica_1,
+.chromebook, .chromebook_1,
+.desktop , .desktop_1,
+.elite, .elite_1,
+.elitebook, .elitebook_1,
+.elitedesk, .elitedesk_1,
+.fundamentos, .fundamentos_1,
+.z8, .z8_1,
+.probook, .probook_1,
+.segurança_pc, .segurança_pc_1,
+.zbook, .zbook_1,
+.hp-4580, .hp-4580_1,
+.copia, .copia_1,
+.cor, .cor_1,
+.fw, .fw_1,
+.formater, .formater_1,
+.scanjet, .scanjet_1,
+.plotter, .plotter_1,
+.tonner, .tonner_1,
+.x7400, .x7400_1,
+.zebra, .zebra_1
+{
+    display: none;
+
+}
+
+#certificado-logica, #certificado-git, #certificado-html, #certificado-qa{
+    width: 90%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#certificado-facul-01, #certificado-facul-02{
+    width: 80%;
+   padding: 1%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+#certificado-aduaneira, #certificado-etica, #certificado-serviço, #certificado-projeto,
+#certificado-carreira, #certificado-tempo, #certificado-institucional, #certificado-lgpd, #certificado-diversidade,
+#certificado-conectividade, #certificado-soft-skills, #certificado-tecnologia,
+#certificado-segurança, #certificado-ofs, #certificado-desenvolver,
+#certificado-jogos, #certificado-design, #certificado-eletricidade, #certificado-eletronica-industrial, 
+#certificado-informatica, #certificado-micro, #certificado-eletronica,
+#certificado-espanhol, #certificado-chromebook, #certificado-desktop, #certificado-elite, #certificado-elitebook, #certificado-elitedesk,
+#certificado-fundamentos, #certificado-z8, #certificado-probook, #certificado-segurança_pc, #certificado-zbook,
+#certificado-4580, #certificado-cor, #certificado-copia, #certificado-fw, #certificado-formater, #certificado-scanjet, #certificado-plotter, 
+#certificado-tonner, #certificado-7400, #certificado-zebra {
+    width: 90%;
+   padding: 1%;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+.award-hamburguer-alura-logica, .award-hamburguer-alura-git, .award-hamburguer-alura-html, .award-hamburguer-alura-qa,
+.award-hamburguer-facul-01, .award-hamburguer-facul-02,
+.award-hamburguer-aduaneira, .award-hamburguer-etica, .award-hamburguer-serviço, .award-hamburguer-projeto,
+.award-hamburguer-carreira, .award-hamburguer-tempo, .award-hamburguer-institucional, .award-hamburguer-lgpd, .award-hamburguer-diversidade,
+.award-hamburguer-conectividade, .award-hamburguer-soft-skills, .award-hamburguer-tecnologia, .award-hamburguer-segurança,
+.award-hamburguer-ofs, .award-hamburguer-desenvolver,
+.award-hamburguer-jogos, .award-hamburguer-design, .award-hamburguer-eletricidade, .award-hamburguer-eletronica-industrial,
+.award-hamburguer-informatica, .award-hamburguer-micro, .award-hamburguer-eletronica,
+.award-hamburguer-espanhol,
+.award-hamburguer-impressoras-geral,.award-hamburguer-impressoras-pc, .award-hamburguer-impressoras-impressoras,
+.award-hamburguer-chromebook, .award-hamburguer-desktop,.award-hamburguer-elite,.award-hamburguer-elitebook,.award-hamburguer-elitedesk,
+.award-hamburguer-fundamentos, .award-hamburguer-z8, .award-hamburguer-probook, .award-hamburguer-segurança_pc, .award-hamburguer-zbook,
+.award-hamburguer-4580,.award-hamburguer-cor, .award-hamburguer-copia, .award-hamburguer-fw, .award-hamburguer-formater, .award-hamburguer-scanjet,
+.award-hamburguer-plotter, .award-hamburguer-tonner, .award-hamburguer-7400, .award-hamburguer-zebra{
+    color: #d7dfd6af;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    
+.award-buton-alura-logica:checked ~ .alura1, .award-buton-alura-git:checked ~ .alura2, .award-buton-alura-html:checked ~ .alura3,
+.award-buton-alura-qa:checked ~ .qa,
+.award-buton-facul-01:checked ~ .facul1, .award-buton-facul-02:checked ~ .facul2,
+.award-buton-aduaneira:checked ~ .aduaneira, .award-buton-etica:checked ~ .etica, .award-buton-serviço:checked ~ .serviço,
+.award-buton-projeto:checked ~ .projeto, .award-buton-carreira:checked ~ .carreira, .award-buton-tempo:checked ~ .tempo, 
+.award-buton-institucional:checked ~ .institucional, .award-buton-lgpd:checked ~ .lgpd, .award-buton-diversidade:checked ~ .diversidade,
+.award-buton-conectividade:checked ~ .conectividade,
+.award-buton-soft-skills:checked ~ .soft-skills, .award-buton-tecnologia:checked ~ .tecnologia, .award-buton-segurança:checked ~ .segurança,
+.award-buton-ofs:checked ~ .ofs, .award-buton-desenvolver:checked ~ .desenvolver,
+.award-buton-jogos:checked ~ .jogos, .award-buton-design:checked ~ .design, .award-buton-eletricidade:checked ~ .eletricidade, 
+.award-buton-eletronica:checked ~ .eletronica,
+.award-buton-eletronica-industrial:checked ~ .eletronica-industrial,.award-buton-micro:checked ~ .micro,
+.award-buton-informatica:checked ~ .informatica, .award-buton-espanhol:checked ~ .espanhol,
+.award-buton-chromebook:checked ~ .chromebook, .award-buton-desktop:checked ~ .desktop, .award-buton-elite:checked ~ .elite,
+.award-buton-elitebook:checked ~ .elitebook, .award-buton-elitedesk:checked ~ .elitedesk, .award-buton-fundamentos:checked ~ .fundamentos,
+.award-buton-z8:checked ~ .z8, .award-buton-probook:checked ~ .probook, .award-buton-segurança_pc:checked ~ .segurança_pc, 
+.award-buton-zbook:checked ~ .zbook, .award-buton-4580:checked ~ .hp-4580, .award-buton-cor:checked ~ .cor, .award-buton-copia:checked ~ .copia,
+.award-buton-fw:checked ~ .fw, .award-buton-formater:checked ~ .formater, .award-buton-scanjet:checked ~ .scanjet, .award-buton-plotter:checked ~ .plotter,
+.award-buton-tonner:checked ~ .tonner, .award-buton-7400:checked ~ .x7400, .award-buton-zebra:checked ~ .zebra  {
+    display: block;
+}
+
+#certificado-logica, #certificado-git, #certificado-html, #certificado-qa,
+#certificado-facul-01, #certificado-facul-02,
+#certificado-aduaneira, #certificado-etica, #certificado-serviço, #certificado-projeto,
+#certificado-carreira, #certificado-tempo, #certificado-institucional, #certificado-diversidade,
+#certificado-conectividade, #certificado-soft-skills, #certificado-tecnologia,
+#certificado-segurança, #certificado-ofs, #certificado-desenvolver, #certificado-lgpd, 
+#certificado-jogos, #certificado-design, #certificado-eletricidade, #certificado-eletronica-industrial, 
+#certificado-informatica, #certificado-micro,
+#certificado-espanhol, #certificado-eletronica, #certificado-chromebook, #certificado-desktop, #certificado-elite, #certificado-elitebook, #certificado-elitedesk,
+#certificado-fundamentos, #certificado-z8, #certificado-probook, #certificado-segurança_pc, #certificado-zbook,
+#certificado-4580, #certificado-cor, #certificado-copia, #certificado-fw, #certificado-formater, #certificado-scanjet, #certificado-plotter, 
+#certificado-tonner, #certificado-7400, #certificado-zebra  {
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+}
+.left-title {
+    font-size: max(20px, 5vw); 
+}
+.right-section{
+    display: none;
+}
+
+.left-section {
+    grid-column: span 8;
+    padding: 1rem;
+}
+
+} 

@@ -6,12 +6,46 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* for Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #90d4b6 #263229;
+  }
+
+/* Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #263229;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #90d4b6;
+    border-radius: 30px;
+    border: 2px solid #000000;
+}
+
+/* main */
+
+.contact-class a {
+    color: #BBBBBB;
+    font-weight: bold;
+    text-decoration: none;
+} 
+
+.contact-class a:hover {
+    color: #2ec144;
+    text-decoration: underline;
+    text-shadow: #425546 0 0 0.5em;
+}
+
 .resume-contents {
     min-height: 100vh;
-    width: 80%;
-    margin: 2rem auto;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .left-section {
@@ -21,7 +55,7 @@
 }
 
 .right-section {
-    grid-column: span 5;
+    grid-column: span 6;
     height: 100%;
     background-color: #425546;
     border-radius: 0px 60px 0px 0px;
@@ -34,12 +68,16 @@
 .profile {
     width: 100%;
     border-bottom: 2px solid #4e6655;
+    text-align: center;
 }
 
 .profile .profile-image {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 8px solid #19311a;
+    margin-top: 1rem;
+    max-width: 250px;
+    
 }
 
 .name {
@@ -76,6 +114,7 @@
 
 .contact-info ul {
     padding-top: 1.5rem;
+    text-decoration: none;
 }
 
 .contact-info ul li,
@@ -85,13 +124,13 @@
     align-items: center;
     color: #d6dbdfaf;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
-    font-size: 18px;
+    font-size: 16px;
     color: #2ec144;
 }
 
@@ -101,7 +140,7 @@
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
@@ -111,14 +150,14 @@
 .referance-name {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
-    font-size: 18px;
+    font-size: 16px;
     color: #71dbab;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .referance-profession {
-    font-size: 16px;
+    font-size: 14px;
     color: #d6dbdfaf;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
@@ -127,55 +166,109 @@
 
 
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 2rem;
 }
 
 .right-title {
-    color: #a2e3a9;
-    font-size: 40px;
+    color: #90d4b6;
+    font-size: 22px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
-    align-items: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
     position: relative;
+    text-align: center;
 }
 
 .gap {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .about-me-contents {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
-    line-height: 2rem;
     color: #F1F8FD;
+    margin-bottom: 1rem;
+    line-height: 2rem;
 }
 
-.experience-contents,
+/* .experience-contents,
 .education-contents,
 .awards-contents {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
+    color: #F1F8FD;
+} */
+
+/* .experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #F1F8FD;
 }
 
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: #71dbab;
-    padding-bottom: .4rem;
+    padding: .5rem 0;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+} */
+
+.experience-gap, 
+.experience-contents,
+.education-gap,
+.education-contents,
+.awards-gap 
+.awards-contents{
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+
+}
+.exp-left,
+.education-left,
+.awards-left {
+    grid-column: span 1;
+}
+
+.exp-right,
+.education-right,
+.awards-right{
+    grid-column: span 2;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #F1F8FD;
+    padding: .5rem 0;
+}
+
+.exp-time-period,
+.education-time-period,
+.awards-time-period {
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 2rem;
 }
@@ -183,34 +276,54 @@
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #71dbab;
-    padding-bottom: .4rem;
+    color: #F1F8FD;
+    padding: .5rem 0;
 }
 
 .exp-desc,
 .education-desc,
-.awards-desc {
-    font-size: 16px;
+.awards-desc,
+.certificates-text{
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.5rem;
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
 }
 
+.fa {
+    padding-right: 0.2rem;
+}
+
+.certificate-class a {
+    color: #90d4b6;
+    font-weight: bold;
+    text-decoration: none;
+    
+} 
+
+.certificate-class a:hover {
+    color: #2ec144;
+    text-decoration: underline;
+    text-shadow: #000000 0 0 0.5em;
+    
+}
+
+.certificates-text {
+    display: grid;
+    color: #F1F8FD;
+}
+
 /* Media queries */
-@media screen and (max-width:780px) {
+@media screen and (max-width:767px) {
     .experience-contents,
     .education-contents,
     .awards-contents {
         grid-template-columns: repeat(1, 1fr);
     }
-}
 
-@media screen and (max-width:780px) {
     .left-section {
         grid-column: span 3;
     }
@@ -218,67 +331,24 @@
     .right-section {
         grid-column: span 4;
     }
-    
-}
 
-@media screen and (max-width:1200px) {
+    .left-section-content {
+        padding: 1rem 1.5rem;
+    }
+
+    .right-section-contents {
+        padding: 1.5rem;
+    }
     .resume-contents {
         grid-template-columns: repeat(1, 1fr);
     }
-}
-
-@media screen and (max-width:390px) {
-    .resume-contents {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .name {
-        font-size: 20px;
-    }
-
-    .profession {
-        font-size: 18px;
-    }
 
     .left-title {
-        font-size: 18px;
+        padding-top: 2rem;
     }
 
-    .right-title {
-        font-size: 18px;
-    }
-
-    .contact-info ul li,
-    .references ul li {
-        font-size: 12px;
-    }
-
-    .contact-info ul li i,
-    .references ul li i {
-        /* padding-right: 1rem; */
-        font-size: 12px;
-    }
-
-    .skills ul li p {
-        font-size: 12px;
-    }
-
-    .about-me-contents {
-        font-size: 16px;
-        line-height: 1.5rem;
-    }
-
-    .exp-company-name,
-    .education-school-name,
-    .awards-company-name {
-        font-size: 18px;
-    }
-
-    .exp-time-period,
-    .educationp-time-period,
-    .awards-time-period {
-        font-size: 16px;
+    .skills ul {
+        padding: 1rem 0;
     }
 
     .exp-position,
@@ -286,4 +356,75 @@
     .awards-name {
         font-size: 18px;
     }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .left-section-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .contact-skill-container{
+        display: grid;
+    }
+    .resume-contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .exp-position,
+    .education-subject,
+    .awards-name {
+        font-size: 20px;
+    }
+}
+
+@media print {
+    .left-section-content {
+        gap: 0.5rem;
+    }
+    
+    .exp-position,
+    .education-subject,
+    .awards-name {
+        font-size: 10px;
+    }
+    .exp-company-name,
+    .education-school-name,
+    .awards-company-name {
+        font-size: 12px;
+    }
+    
+    .exp-time-period,
+    .education-time-period,
+    .awards-time-period {
+        font-size: 12px;
+
+    }
+    
+    .exp-position,
+    .education-subject,
+    .awards-name {
+        font-size: 14px;
+        padding: .5rem 0;
+    }
+    
+    .exp-desc,
+    .education-desc,
+    .awards-desc,
+    .certificates-text{
+    font-size: 12px;
+}
+
+.left-title {
+
+    font-size: 16px;}
+
+    .right-title {
+
+        font-size: 16px;}
+
+
+
 }
