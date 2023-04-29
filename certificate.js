@@ -130,9 +130,7 @@ btn_facul01.addEventListener('click', function() {
         facul1_1.style.display = 'none';
     } else {
         facul1_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_facul02.addEventListener('click', function() {
 
@@ -140,9 +138,7 @@ btn_facul02.addEventListener('click', function() {
         facul2_1.style.display = 'none';
     } else {
         facul2_1.style.display = 'block';
-    }
-
-});
+    }});
 
 //Alura Cursos
 
@@ -152,9 +148,7 @@ btn_logica.addEventListener('click', function() {
         alura1_1.style.display = 'none';
     } else {
         alura1_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_git.addEventListener('click', function() {
 
@@ -162,9 +156,7 @@ btn_git.addEventListener('click', function() {
         alura2_1.style.display = 'none';
     } else {
         alura2_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_html.addEventListener('click', function() {
 
@@ -172,9 +164,7 @@ btn_html.addEventListener('click', function() {
         alura3_1.style.display = 'none';
     } else {
         alura3_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_qa.addEventListener('click', function() {
 
@@ -182,9 +172,7 @@ btn_qa.addEventListener('click', function() {
         qa_1.style.display = 'none';
     } else {
         qa_1.style.display = 'block';
-    }
-
-});
+    }});
 
 //Curso extra
 
@@ -194,33 +182,28 @@ btn_jogos.addEventListener('click', function() {
         jogos_1.style.display = 'none';
     } else {
         jogos_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_design.addEventListener('click', function() {
     if(design_1.style.display === 'block') {
         design_1.style.display = 'none';
     } else {
         design_1.style.display = 'block';
-    }
-});
+    }});
 
 btn_informatica.addEventListener('click', function() {
     if(informatica_1.style.display === 'block') {
         informatica_1.style.display = 'none';
     } else {
         informatica_1.style.display = 'block';
-    }
-});
+    }});
 
 btn_micro.addEventListener('click', function() {
     if(micro_1.style.display === 'block') {
         micro_1.style.display = 'none';
     } else {
         micro_1.style.display = 'block';
-    }
-});
+    }});
 
 //idioma
 
@@ -229,8 +212,7 @@ btn_espanhol.addEventListener('click', function() {
         espanhol_1.style.display = 'none';
     } else {
         espanhol_1.style.display = 'block';
-    }
-});
+    }});
 
 //Cursos tenicos
 
@@ -239,24 +221,21 @@ btn_eletronica.addEventListener('click', function() {
         eletronica_1.style.display = 'none';
     } else {
         eletronica_1.style.display = 'block';
-    }
-});
+    }});
 
 btn_eletricidade.addEventListener('click', function() {
     if(eletricidade_1.style.display === 'block') {
         eletricidade_1.style.display = 'none';
     } else {
         eletricidade_1.style.display = 'block';
-    }
-});
+    }});
 
 btn_eletronica_industrial.addEventListener('click', function() {
     if(eletronica_industrial_1.style.display === 'block') {
         eletronica_industrial_1.style.display = 'none';
     } else {
         eletronica_industrial_1.style.display = 'block';
-    }
-});
+    }});
 
 //Universidade simpress
 
@@ -266,9 +245,7 @@ btn_aduaneira.addEventListener('click', function() {
         aduaneira_1.style.display = 'none';
     } else {
         aduaneira_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_etica.addEventListener('click', function() {
 
@@ -276,9 +253,7 @@ btn_etica.addEventListener('click', function() {
         etica_1.style.display = 'none';
     } else {
         etica_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_serviço.addEventListener('click', function() {
 
@@ -286,9 +261,7 @@ btn_serviço.addEventListener('click', function() {
         serviço_1.style.display = 'none';
     } else {
         serviço_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_projeto.addEventListener('click', function() {
 
@@ -296,9 +269,7 @@ btn_projeto.addEventListener('click', function() {
         projeto_1.style.display = 'none';
     } else {
         projeto_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_carreira.addEventListener('click', function() {
 
@@ -306,9 +277,7 @@ btn_carreira.addEventListener('click', function() {
         carreira_1.style.display = 'none';
     } else {
         carreira_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_tempo.addEventListener('click', function() {
 
@@ -316,9 +285,7 @@ btn_tempo.addEventListener('click', function() {
         tempo_1.style.display = 'none';
     } else {
         tempo_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_institucional.addEventListener('click', function() {
 
@@ -326,9 +293,7 @@ btn_institucional.addEventListener('click', function() {
         institucional_1.style.display = 'none';
     } else {
         institucional_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_lgpd.addEventListener('click', function() {
 
@@ -336,9 +301,7 @@ btn_lgpd.addEventListener('click', function() {
         lgpd_1.style.display = 'none';
     } else {
         lgpd_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_diversidade.addEventListener('click', function() {
 
@@ -346,9 +309,7 @@ btn_diversidade.addEventListener('click', function() {
         diversidade_1.style.display = 'none';
     } else {
         diversidade_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_conectividade.addEventListener('click', function() {
 
@@ -356,9 +317,7 @@ btn_conectividade.addEventListener('click', function() {
         conectividade_1.style.display = 'none';
     } else {
         conectividade_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_soft_skills.addEventListener('click', function() {
 
@@ -366,9 +325,7 @@ btn_soft_skills.addEventListener('click', function() {
         soft_skills_1.style.display = 'none';
     } else {
         soft_skills_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_tecnologia.addEventListener('click', function() {
 
@@ -376,9 +333,7 @@ btn_tecnologia.addEventListener('click', function() {
         tecnologia_1.style.display = 'none';
     } else {
         tecnologia_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_segurança.addEventListener('click', function() {
 
@@ -386,9 +341,7 @@ btn_segurança.addEventListener('click', function() {
         segurança_1.style.display = 'none';
     } else {
         segurança_1.style.display = 'block';
-    }
-
-});
+    }});
 
 btn_ofs.addEventListener('click', function() {
 
@@ -396,8 +349,7 @@ btn_ofs.addEventListener('click', function() {
         ofs_1.style.display = 'none';
     } else {
         ofs_1.style.display = 'block';
-    }
-});
+    }});
 
 btn_desenvolver.addEventListener('click', function() {
 
@@ -566,10 +518,3 @@ btn_zebra.addEventListener('click', function() {
     } else {
         zebra_1.style.display = 'block';
     }});
-
-
-
-
- 
-
-

@@ -243,7 +243,6 @@ position: relative;
 .zebra, .zebra_1
 {
     display: none;
-
 }
 
 #certificado-logica, #certificado-git, #certificado-html, #certificado-qa{
@@ -349,5 +348,4 @@ position: relative;
     grid-column: span 8;
     padding: 1rem;
 }
-
 } 

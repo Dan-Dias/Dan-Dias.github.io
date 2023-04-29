@@ -164,7 +164,6 @@
     padding-bottom: .4rem;
 }
 
-
 .right-section-contents {
     padding: 2rem;
 }
@@ -184,6 +183,7 @@
 .gap {
     padding-bottom: 1rem;
 }
+
 .about-me-contents {
     font-size: 14px;
     letter-spacing: 1px;
@@ -191,40 +191,6 @@
     margin-bottom: 1rem;
     line-height: 2rem;
 }
-
-/* .experience-contents,
-.education-contents,
-.awards-contents {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    color: #F1F8FD;
-} */
-
-/* .experience-contents,
-.education-contents,
-.awards-contents {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    color: #F1F8FD;
-}
-
-.exp-company-name,
-.education-school-name,
-.awards-company-name {
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #71dbab;
-    padding: .5rem 0;
-}
-
-.exp-time-period,
-.education-time-period,
-.awards-time-period {
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 2rem;
-} */
 
 .experience-gap, 
 .experience-contents,
@@ -301,14 +267,12 @@
     color: #90d4b6;
     font-weight: bold;
     text-decoration: none;
-    
 } 
 
 .certificate-class a:hover {
     color: #2ec144;
     text-decoration: underline;
     text-shadow: #000000 0 0 0.5em;
-    
 }
 
 .certificates-text {
@@ -356,7 +320,6 @@
     .awards-name {
         font-size: 18px;
     }
-    
 }
 
 @media screen and (min-width:768px) and (max-width:1200px) {
@@ -400,7 +363,6 @@
     .education-time-period,
     .awards-time-period {
         font-size: 12px;
-
     }
     
     .exp-position,
@@ -421,10 +383,7 @@
 
     font-size: 16px;}
 
-    .right-title {
+.right-title {
 
-        font-size: 16px;}
-
-
-
+    font-size: 16px;}
 }
