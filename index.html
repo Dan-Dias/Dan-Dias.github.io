@@ -14,6 +14,9 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- css das animações -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -26,12 +29,14 @@
         <section class="left-section">
             <section class="left-section-content">
                 <div class="profile">
-                    <img class="profile-image" src="img/profile-image.jpeg" alt="Profile image">
-                    <p class="name">Daniel Dias</p>
+                    <img class="profile-image" src="img/profile-image.jpeg" alt="Profile image" data-aos="zoom-in">
+                    <div class="digitacao">
+                    <p class="name" >Daniel Dias</p>
                     <p class="profession">Desenvolvedor</p>
+                    </div>
                 </div>
                 <div class="contact-skill-container">
-                    <div class="contact-info">
+                    <div class="contact-info" data-aos="zoom-in">
                         <p class="left-title">Contato</p>
                         <nav class="contact-class">
                             <ul>
@@ -42,7 +47,7 @@
                             </ul>
                         </nav>  
                     </div>
-                    <div class="skills">
+                    <div class="skills" data-aos="zoom-in">
                         <p class="left-title">Habilidades</p><br>
                         <ul>
                             <li>
@@ -61,7 +66,7 @@
         </section>
         <section class="right-section">
             <div class="right-section-contents">
-                <section class="About Gap">
+                <section class="About Gap" data-aos="zoom-in">
                     <div class="right-title">Sobre Mim</div><br>
                     <p class="about-me-contents">
                         Olá sou o Daniel.<br>
@@ -71,7 +76,7 @@
                         com qualidade! <br> Nas horas vagas gosto de estudar sobre economia ou ver filmes e séries.
                     </p>
                 </section>
-            <section class="experience-gap">
+            <section class="experience-gap" data-aos="zoom-in">
                 <div class="right-title">Experiências</div>
                 <div class="experience-contents">
                     <div class="exp-left">
@@ -93,7 +98,7 @@
                     </div>
                 </div>
             </section>
-            <section class="education-gap">
+            <section class="education-gap" data-aos="zoom-in">
                 <div class="right-title">Formação Academica</div>
                 <div class="education-contents">
                     <div class="education-left">
@@ -115,7 +120,7 @@
                             forma EAD </p>
                     </div>
 
-                    <div class="education-left">
+                    <div class="education-left" >
                         <p class="education-school-name">Alura</p>
                         <p class="education-time-period">2022 - presente</p>
                     </div>
@@ -126,7 +131,7 @@
                 </div>
             </section>
 
-            <section class="awards-gap">
+            <section class="awards-gap" data-aos="zoom-in">
                 <div class="right-title">Cursos</div>
                 <div class="awards-contents">
                     <div class="awards-left">
@@ -163,18 +168,24 @@
                     </div>  
                 </div>  
 
-            <nav class="certificate-class">
+            <div class="certificate-class" >
                 <ul>
                     <li class="right-title"><i class="fa fa-caret-right"></i><a href="certificate.html"> Certificados</a></li>
                     <li class="certificates-text"> Te convido a conhecer todos os meus 
                         certificados clicando no link acima. </li>
                 </ul>
-            </nav>  
+            </div>  
             </section>
         </div>
         </section>
         </main>
-        <script src="certificate.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1500,
+                once: true
+            });
+        </script>
+        <script src="digita.js"></script>
 </body>
-
 </html>

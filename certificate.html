@@ -14,6 +14,9 @@
      <!-- font-awesome -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
+     <!-- css das animações -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
      <!-- Custom CSS -->
      <link rel="stylesheet" href="certificate.css">
  
@@ -22,26 +25,26 @@
 </head>
 <body>
      <main class="certificate-contents">
-          <section class="left-section">
-               <div class="title-certificates">
+          <section class="left-section" >
+               <div class="title-certificates" >
                     <h1 class="left-title">Certificados</h1>     
                </div>
                          <nav class="certificate-class">
                               
                                                      <!-- Lista de certificados alura -->
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-alura" class="award-buton-alura">
                                    <label for="award-box-alura">
                                         <span class="award-hamburguer-alura">Alura</span>
                                    </label>
-                                   <div class="list-box-alura">
+                                   <div class="list-box-alura" >
 
                                         <div class="alura01">
                                              <input type="checkbox" id="award-box-alura-logica" class="award-buton-alura-logica">
                                                   <label for="award-box-alura-logica">
                                                        <span class="award-hamburguer-alura-logica">Lógica de Programação</span>
                                                   </label>
-                                                  <div class="alura1">
+                                                  <div class="alura1" >
                                                        <img id="certificado-logica" src="img certificates/Alura/logica de programacao.png" 
                                                        alt="Certificado de lógica de programação">
                                                   </div>  
@@ -90,7 +93,7 @@
                                    </div>
                               </div>
 
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-idioma" class="award-buton-idioma">
                                    <label for="award-box-idioma">
                                         <span class="award-hamburguer-idioma">Idioma</span>
@@ -109,7 +112,7 @@
                                    </ul>
                               </div>
 
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-cursos" class="award-buton-cursos">
                                    <label for="award-box-cursos">
                                         <span class="award-hamburguer-cursos">Extra curriculares</span>
@@ -162,7 +165,7 @@
                                         </div>
                               </div>
 
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-tecnico" class="award-buton-tecnico">
                                    <label for="award-box-tecnico">
                                         <span class="award-hamburguer-tecnico">Técnico</span>
@@ -204,7 +207,7 @@
                                     </div>
                               </div>
 
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-facul" class="award-buton-facul">
                                    <label for="award-box-facul">
                                         <span class="award-hamburguer-facul">Análise e Desenvolvimento de sistemas</span>
@@ -237,7 +240,7 @@
 
                               <!-- Certificados universidade Simpress -->
                          
-                              <div class="List">
+                              <div class="List" data-aos="zoom-in">
                                    <input type="checkbox" id="award-box-impressoras" class="award-buton-impressoras">
                                    <label for="award-box-impressoras">
                                         <span class="award-hamburguer-impressoras">Universidade Simpress</span>
@@ -411,7 +414,7 @@
                                                                       <span class="award-hamburguer-aduaneira">Aduaneira para o comércio Global</span>
                                                                  </label>
                                                                  <div class="aduaneira">
-                                                                      <img id="certificado-aduaneira" src="img certificates/simpress/aduaneira.jpg" 
+                                                                      <img id="certificado-aduaneira" src="img certificates/simpress/aduaneira.png" 
                                                                       alt="Certificado Aduaneira para o comércio global">
                                                                  </div>  
                                                        </div> 
@@ -638,7 +641,7 @@
                                                                       <span class="award-hamburguer-7400"> Samsung A3 x7400</span>
                                                                 </label>
                                                                  <div class="x7400">
-                                                                      <img id="certificado-7400" src="img certificates/simpress/impressoras/x7400.jpg" 
+                                                                      <img id="certificado-7400" src="img certificates/simpress/impressoras/x7400.png" 
                                                                       alt="Certificado  X7400">
                                                                  </div>  
                                                        </div>
@@ -649,7 +652,7 @@
                                                                       <span class="award-hamburguer-zebra"> Zebra</span>
                                                                  </label>
                                                                  <div class="zebra">
-                                                                      <img id="certificado-zebra" src="img certificates/simpress/impressoras/zebra.jpg" 
+                                                                      <img id="certificado-zebra" src="img certificates/simpress/impressoras/zebra.png" 
                                                                       alt="Certificado  zebra">
                                                                  </div>  
                                                        </div>
@@ -659,7 +662,7 @@
                               </div>
                          </nav>  
 
-                         <nav class="back-class">
+                         <nav class="back-class" data-aos="zoom-in">
                               <ul>
                                    <li class="back-title"><i class="fa fa-caret-right"></i><a href="index.html"> Voltar</a></li>
                               </ul>  
@@ -945,6 +948,13 @@
                </div>
           </section>
      </main>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init({
+             duration: 1500,
+             once: true
+         });
+     </script>
      <script src="certificate.js"></script>
 </body>
 </html>

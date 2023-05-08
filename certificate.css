@@ -135,6 +135,30 @@
     padding: 1rem 0;
 }
 
+/* Checkbox */
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + label:before{
+    content:"";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background:url(/img/check-off2.png);
+    background-size: 15px 15px;
+}
+
+input[type="checkbox"]:checked + label:before{
+    content:"";
+    display: inline-block;
+    height: 15px;
+    width: 25px;
+    background:url(/img/check-on2.png) no-repeat;
+    background-size:15px 15px;
+}
+
 /* Chekeds principais */
 
 .award-hamburguer-facul, 
@@ -243,6 +267,7 @@ position: relative;
 .zebra, .zebra_1
 {
     display: none;
+
 }
 
 #certificado-logica, #certificado-git, #certificado-html, #certificado-qa{
@@ -251,6 +276,7 @@ position: relative;
     display: flex;
     justify-content: center;
     margin: auto;
+    
 }
 
 #certificado-facul-01, #certificado-facul-02{
@@ -276,6 +302,7 @@ position: relative;
    display: flex;
    justify-content: center;
    margin: auto;
+  
 }
 
 .award-hamburguer-alura-logica, .award-hamburguer-alura-git, .award-hamburguer-alura-html, .award-hamburguer-alura-qa,
@@ -296,6 +323,7 @@ position: relative;
     font-size: 16px;
     font-weight: bold;
     align-items: center;
+    
 }
 
 @media screen and (max-width: 720px) {

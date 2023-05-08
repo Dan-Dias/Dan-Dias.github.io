@@ -518,3 +518,20 @@ btn_zebra.addEventListener('click', function() {
     } else {
         zebra_1.style.display = 'block';
     }});
+
+       // Funções digitação
+
+       const left_title = document.querySelector('.left-title');
+   
+       function typeWriter (elemento,delay=0) {
+           const textoarray = elemento.innerHTML.split('');
+           elemento.innerHTML= ''; 
+   
+           setTimeout(() => {
+               textoarray.forEach((value, i) => {
+                   setTimeout(() => {
+                       elemento.innerHTML += value
+                   },90* i)
+               })}, delay)}
+   
+       typeWriter(left_title);
