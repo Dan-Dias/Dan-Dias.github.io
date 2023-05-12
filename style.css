@@ -90,6 +90,10 @@
     padding: 1rem 0;
 }
 
+.name_content{
+    padding-bottom: 1rem;
+}
+
 .profession {
     color: #71dbab;
     font-size: 20px;
@@ -184,7 +188,7 @@
     padding-bottom: 1rem;
 }
 
-.about-me-contents {
+.about-me-contents, .site_information {
     font-size: 14px;
     letter-spacing: 1px;
     color: #F1F8FD;
@@ -233,7 +237,7 @@
 
 .exp-time-period,
 .education-time-period,
-.awards-time-period {
+.awards-time-period  {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 2rem;
@@ -280,6 +284,10 @@
     color: #F1F8FD;
 }
 
+.site_information{
+    display: none;
+}
+
 /* Media queries */
 @media screen and (max-width:767px) {
     .experience-contents,
@@ -320,6 +328,8 @@
     .awards-name {
         font-size: 18px;
     }
+
+    
 }
 
 @media screen and (min-width:768px) and (max-width:1200px) {
@@ -343,11 +353,61 @@
     }
 }
 
+/* para impressão */
+
 @media print {
+
+   /* color  */
+
+   /* .contact-class a, .name, .contact-info ul li, .references ul li , .skills ul li p, .referance-profession,.about-me-contents, 
+   .experience-contents, .education-contents, .awards-contents, .exp-company-name, .education-school-name, .awards-company-name ,
+   .exp-position, .education-subject, .awards-name, .certificates-text {
+    color: #0f0f0f;
+   } */
+   .name{
+    font-size: 15px;
+   }
+
+   .profession{
+    font-size: 13px;
+   }
+
+   .contact-info ul li{
+    font-size: 12px;
+   }
+
+   .contact-info ul li i{
+    padding-right: 4px;
+   }
+
+   .skills ul li p{
+    font-size: 12px;
+   }
+
+   .fa-github, .fa-linkedin, .fa-envelope, .fa-whatsapp {
+    padding-right: 0;
+   }
+
+   .about-me-contents {
+    line-height: 1.5rem;
+    font-size: 12px;
+   }
+
+   .name_content{
+    padding-bottom: 0rem;
+   }
+
     .left-section-content {
         gap: 0.5rem;
+        padding: 1rem;
     }
-    
+
+    .rigth-section-content {
+        padding: 1rem;
+    }
+    .experience-gap, .experience-contents, .education-gap, .education-contents, .awards-gap .awards-contents {
+        gap: 0rem;
+    }
     .exp-position,
     .education-subject,
     .awards-name {
@@ -368,7 +428,7 @@
     .exp-position,
     .education-subject,
     .awards-name {
-        font-size: 14px;
+        font-size: 12px;
         padding: .5rem 0;
     }
     
@@ -381,9 +441,22 @@
 
 .left-title {
 
-    font-size: 16px;}
+    font-size: 14px;}
 
 .right-title {
 
-    font-size: 16px;}
+    font-size: 14px;}
+
+.site_information{
+    display: inline-block;
+    font-size: 10px;
+    margin: 0;
+    line-height: 1.2rem;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.certificate-class{
+    display: none;
+}
 }
