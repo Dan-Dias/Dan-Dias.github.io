@@ -179,7 +179,7 @@ input[type="checkbox"]:checked + label:before{
 .list-box-cursos,
 .list-box-impressoras,
 .list-box-tecnico,
-.list-box-impressoras-geral, .list-box-impressoras-pc, .list-box-impressoras-impressoras{
+.list-box-impressoras-SW, .list-box-impressoras-geral, .list-box-impressoras-pc, .list-box-impressoras-impressoras{
     display: none;
 }
 
@@ -189,6 +189,7 @@ input[type="checkbox"]:checked + label:before{
 .award-buton-cursos:checked ~ .list-box-cursos,
 .award-buton-impressoras:checked ~ .list-box-impressoras,
 .award-buton-tecnico:checked ~ .list-box-tecnico,
+.award-buton-impressoras-SW:checked ~ .list-box-impressoras-SW,
 .award-buton-impressoras-geral:checked ~ .list-box-impressoras-geral,
 .award-buton-impressoras-pc:checked ~ .list-box-impressoras-pc,
 .award-buton-impressoras-impressoras:checked ~ .list-box-impressoras-impressoras {
@@ -198,17 +199,18 @@ input[type="checkbox"]:checked + label:before{
 /* checkeds secundarios */
 
 .alura01, .alura02, .alura03, .alura-qa,
-.facul01, .facul02,
+.facul00, .facul01, .facul02,
 .cursos-jogos, .cursos-design, .cursos-informatica, .cursos-micro,
 .idioma-espanhol, 
 .tecnico-eletricidade, .tecnico-eletronica-industrial, .tecnico-eletronica,
-.impressoras-geral, .impressoras-pc, .impressoras-impressoras {
+.impressoras-SW, .impressoras-geral, .impressoras-pc, .impressoras-impressoras {
 display: block;
 padding: .5rem;
 position: relative;
 }
 
-.impressoras-aduaneira, .impressoras-etica, .impressoras-serviço, .impressoras-projeto, .impressoras-carreira, .impressoras-institucional,
+.impressoras-aduaneira, .impressoras-etica, .impressoras-serviço, .impressoras-ppct-associate, .impressoras-ppct-profissional, .impressoras-NDD, 
+.impressoras-android-profissional, .impressoras-android-associate, .impressoras-projeto, .impressoras-carreira, .impressoras-institucional,
 .impressoras-tempo, .impressoras-lgpd, .impressoras-diversidade, .impressoras-conectividade, .impressoras-soft-skills, .impressoras-tecnologia,
 .impressoras-segurança, .impressoras-ofs, .impressoras-desenvolver,
 .pc-chromebook, .pc-desktop, .pc-elite, .pc-elitebook, .pc-elitedesk, .pc-fundamentos, .pc-z8, .pc-probook, .pc-segurança_pc, .pc-zbook,
@@ -221,10 +223,16 @@ position: relative;
 
 .alura1, .alura2, .alura3,.qa,.qa_1,
 .alura1_1, .alura2_1, .alura3_1,
+.facul00, facul00_1,
 .facul1, .facul2, .facul1_1, .facul2_1,
 .aduaneira, .aduaneira_1,
 .etica, .etica_1,
 .serviço, .serviço_1,
+.ppct-associate, .ppct-associate_1,
+.ppct-profissional, .ppct-profissional_1,
+.NDD, .NDD_1,
+.android-profissional, .android-profissional_1,
+.android-associate, .android-associate_1,
 .projeto, .projeto_1,
 .carreira, .carreira_1,
 .institucional, .institucional_1,
@@ -279,7 +287,7 @@ position: relative;
     
 }
 
-#certificado-facul-01, #certificado-facul-02{
+#certificado-facul-00, #certificado-facul-01, #certificado-facul-02{
     width: 80%;
    padding: 1%;
    display: flex;
@@ -287,7 +295,7 @@ position: relative;
    margin: auto;
 }
 
-#certificado-aduaneira, #certificado-etica, #certificado-serviço, #certificado-projeto,
+#certificado-ppct-associate, #certificado-ppct-profissional, #certificado-NDD, #certificado-android-profissional, #certificado-android-associate, #certificado-aduaneira, #certificado-etica, #certificado-serviço, #certificado-projeto,
 #certificado-carreira, #certificado-tempo, #certificado-institucional, #certificado-lgpd, #certificado-diversidade,
 #certificado-conectividade, #certificado-soft-skills, #certificado-tecnologia,
 #certificado-segurança, #certificado-ofs, #certificado-desenvolver,
@@ -306,15 +314,16 @@ position: relative;
 }
 
 .award-hamburguer-alura-logica, .award-hamburguer-alura-git, .award-hamburguer-alura-html, .award-hamburguer-alura-qa,
-.award-hamburguer-facul-01, .award-hamburguer-facul-02,
-.award-hamburguer-aduaneira, .award-hamburguer-etica, .award-hamburguer-serviço, .award-hamburguer-projeto,
+.award-hamburguer-facul-00 .award-hamburguer-facul-01, .award-hamburguer-facul-02,
+.award-hamburguer-aduaneira, .award-hamburguer-etica, .award-hamburguer-serviço, .award-hamburguer-ppct-associate, .award-hamburguer-ppct-profissional,
+.award-hamburguer-NDD, .award-hamburguer-android-profissional, .award-hamburguer-android-associate, .award-hamburguer-projeto,
 .award-hamburguer-carreira, .award-hamburguer-tempo, .award-hamburguer-institucional, .award-hamburguer-lgpd, .award-hamburguer-diversidade,
 .award-hamburguer-conectividade, .award-hamburguer-soft-skills, .award-hamburguer-tecnologia, .award-hamburguer-segurança,
 .award-hamburguer-ofs, .award-hamburguer-desenvolver,
 .award-hamburguer-jogos, .award-hamburguer-design, .award-hamburguer-eletricidade, .award-hamburguer-eletronica-industrial,
 .award-hamburguer-informatica, .award-hamburguer-micro, .award-hamburguer-eletronica,
 .award-hamburguer-espanhol,
-.award-hamburguer-impressoras-geral,.award-hamburguer-impressoras-pc, .award-hamburguer-impressoras-impressoras,
+.award-hamburguer-impressoras-SW, .award-hamburguer-impressoras-geral,.award-hamburguer-impressoras-pc, .award-hamburguer-impressoras-impressoras,
 .award-hamburguer-chromebook, .award-hamburguer-desktop,.award-hamburguer-elite,.award-hamburguer-elitebook,.award-hamburguer-elitedesk,
 .award-hamburguer-fundamentos, .award-hamburguer-z8, .award-hamburguer-probook, .award-hamburguer-segurança_pc, .award-hamburguer-zbook,
 .award-hamburguer-4580,.award-hamburguer-cor, .award-hamburguer-copia, .award-hamburguer-fw, .award-hamburguer-formater, .award-hamburguer-scanjet,
@@ -330,8 +339,10 @@ position: relative;
     
 .award-buton-alura-logica:checked ~ .alura1, .award-buton-alura-git:checked ~ .alura2, .award-buton-alura-html:checked ~ .alura3,
 .award-buton-alura-qa:checked ~ .qa,
-.award-buton-facul-01:checked ~ .facul1, .award-buton-facul-02:checked ~ .facul2,
+.award-buton-facul-00:checked ~ .facul0, .award-buton-facul-01:checked ~ .facul1, .award-buton-facul-02:checked ~ .facul2,
 .award-buton-aduaneira:checked ~ .aduaneira, .award-buton-etica:checked ~ .etica, .award-buton-serviço:checked ~ .serviço,
+.award-buton-ppct-associate:checked ~ .ppct-associate, .award-buton-ppct-profissional:checked ~ .ppct-profissional, .award-buton-NDD:checked ~ .NDD,
+.award-buton-android-profissional:checked ~ .android-profissional, .award-buton-android-associate:checked ~ .android-associate,
 .award-buton-projeto:checked ~ .projeto, .award-buton-carreira:checked ~ .carreira, .award-buton-tempo:checked ~ .tempo, 
 .award-buton-institucional:checked ~ .institucional, .award-buton-lgpd:checked ~ .lgpd, .award-buton-diversidade:checked ~ .diversidade,
 .award-buton-conectividade:checked ~ .conectividade,
@@ -351,8 +362,10 @@ position: relative;
 }
 
 #certificado-logica, #certificado-git, #certificado-html, #certificado-qa,
-#certificado-facul-01, #certificado-facul-02,
-#certificado-aduaneira, #certificado-etica, #certificado-serviço, #certificado-projeto,
+#certificado-facul-00, #certificado-facul-01, #certificado-facul-02,
+#certificado-aduaneira, #certificado-etica, #certificado-serviço, 
+#certificado-ppct-associate, #certificado-ppct-profissional, #certificado-NDD,
+#certificado-android-profissional, #certificado-android-associate, #certificado-projeto,
 #certificado-carreira, #certificado-tempo, #certificado-institucional, #certificado-diversidade,
 #certificado-conectividade, #certificado-soft-skills, #certificado-tecnologia,
 #certificado-segurança, #certificado-ofs, #certificado-desenvolver, #certificado-lgpd, 
