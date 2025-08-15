@@ -223,7 +223,7 @@ position: relative;
 
 .alura1, .alura2, .alura3,.qa,.qa_1,
 .alura1_1, .alura2_1, .alura3_1,
-.facul00, .facul00_1,
+.facul0, .facul0_1,
 .facul1, .facul2, .facul1_1, .facul2_1,
 .aduaneira, .aduaneira_1,
 .etica, .etica_1,
@@ -339,7 +339,7 @@ position: relative;
     
 .award-buton-alura-logica:checked ~ .alura1, .award-buton-alura-git:checked ~ .alura2, .award-buton-alura-html:checked ~ .alura3,
 .award-buton-alura-qa:checked ~ .qa,
-.award-buton-facul-00:checked ~ .facul00, .award-buton-facul-01:checked ~ .facul1, .award-buton-facul-02:checked ~ .facul2,
+.award-buton-facul-00:checked ~ .facul0, .award-buton-facul-01:checked ~ .facul1, .award-buton-facul-02:checked ~ .facul2,
 .award-buton-aduaneira:checked ~ .aduaneira, .award-buton-etica:checked ~ .etica, .award-buton-serviço:checked ~ .serviço,
 .award-buton-ppct-associate:checked ~ .ppct-associate, .award-buton-ppct-profissional:checked ~ .ppct-profissional, .award-buton-NDD:checked ~ .NDD,
 .award-buton-android-profissional:checked ~ .android-profissional, .award-buton-android-associate:checked ~ .android-associate,
