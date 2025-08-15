@@ -10,9 +10,11 @@ var alura3_1 =document.querySelector('.alura3_1')
 var qa_1 =document.querySelector('.qa_1')
 
 //faculdade
+var btn_facul00 = document.querySelector('#award-box-facul-00')
 var btn_facul01 = document.querySelector('#award-box-facul-01')
 var btn_facul02 = document.querySelector('#award-box-facul-02')
 
+var facul0_1 =document.querySelector('.facul0_1')
 var facul1_1 =document.querySelector('.facul1_1')
 var facul2_1 =document.querySelector('.facul2_1')
 
@@ -123,6 +125,14 @@ var btn_espanhol =document.querySelector('#award-box-espanhol')
 var espanhol_1 =document.querySelector('.espanhol_1')
 
 //funções da faculdade
+
+btn_facul00.addEventListener('click', function() {
+
+    if(facul0_1.style.display === 'block') {
+        facul0_1.style.display = 'none';
+    } else {
+        facul0_1.style.display = 'block';
+    }});
 
 btn_facul01.addEventListener('click', function() {
 
