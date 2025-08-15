@@ -266,6 +266,7 @@ btn_ppct_associate.addEventListener('click', function() {
     } else {
         ppct-associate_1.style.display = 'block';
     }});
+
 btn_ppct_profissional.addEventListener('click', function() {
 
     if(ppct-profissional_1.style.display === 'block') {
@@ -273,6 +274,7 @@ btn_ppct_profissional.addEventListener('click', function() {
     } else {
         ppct-profissional_1.style.display = 'block';
     }});
+
 btn_NDD.addEventListener('click', function() {
 
     if(NDD_1.style.display === 'block') {
@@ -280,6 +282,7 @@ btn_NDD.addEventListener('click', function() {
     } else {
        NDD_1.style.display = 'block';
     }});
+
 btn_android_profissional.addEventListener('click', function() {
 
     if(android-profissional_1.style.display === 'block') {
@@ -287,6 +290,7 @@ btn_android_profissional.addEventListener('click', function() {
     } else {
        android-profissional_1.style.display = 'block';
     }});
+
 btn_android_associate.addEventListener('click', function() {
 
     if(android-associate_1.style.display === 'block') {
@@ -294,7 +298,6 @@ btn_android_associate.addEventListener('click', function() {
     } else {
        android-associate_1.style.display = 'block';
     }});
-
 
 btn_aduaneira.addEventListener('click', function() {
 
