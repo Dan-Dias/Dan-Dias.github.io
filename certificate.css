@@ -335,7 +335,7 @@ position: relative;
     
 }
 
-
+@media screen and (max-width: 720px) {
     
 .award-buton-alura-logica:checked ~ .alura1, .award-buton-alura-git:checked ~ .alura2, .award-buton-alura-html:checked ~ .alura3,
 .award-buton-alura-qa:checked ~ .qa,
@@ -388,4 +388,5 @@ position: relative;
 .left-section {
     grid-column: span 8;
     padding: 1rem;
+}
 }
