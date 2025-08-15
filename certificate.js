@@ -19,11 +19,11 @@ var facul1_1 =document.querySelector('.facul1_1')
 var facul2_1 =document.querySelector('.facul2_1')
 
 //universidade simpress
-var btn_ppct-associate = document.querySelector('#award-box-ppct-associate')
-var btn_ppct-profissional = document.querySelector('#award-box-ppct-profissional')
+var btn_ppct_associate = document.querySelector('#award-box-ppct-associate')
+var btn_ppct_profissional = document.querySelector('#award-box-ppct-profissional')
 var btn_NDD = document.querySelector('#award-box-NDD')
-var btn_android-profissional = document.querySelector('#award-box-android-profissional')
-var btn_android-associate = document.querySelector('#award-box-android-associate')
+var btn_android_profissional = document.querySelector('#award-box-android-profissional')
+var btn_android_associate = document.querySelector('#award-box-android-associate')
 var btn_aduaneira = document.querySelector('#award-box-aduaneira')
 var btn_etica = document.querySelector('#award-box-etica')
 var btn_serviço = document.querySelector('#award-box-serviço')
@@ -40,11 +40,11 @@ var btn_segurança_pc = document.querySelector('#award-box-segurança_pc')
 var btn_ofs = document.querySelector('#award-box-ofs')
 var btn_desenvolver = document.querySelector('#award-box-desenvolver')
 
-var btn_ppct-associate_1 = document.querySelector('#award-box-ppct-associate_1')
-var btn_ppct-profissional_1 = document.querySelector('#award-box-ppct-profissional_1')
+var btn_ppct_associate_1 = document.querySelector('#award-box-ppct-associate_1')
+var btn_ppct_profissional_1 = document.querySelector('#award-box-ppct-profissional_1')
 var btn_NDD_1 = document.querySelector('#award-box-NDD_1')
-var btn_android-profissional_1 = document.querySelector('#award-box-android-profissional_1')
-var btn_android-associate_1 = document.querySelector('#award-box-android-associate_1')
+var btn_android_profissional_1 = document.querySelector('#award-box-android-profissional_1')
+var btn_android_associate_1 = document.querySelector('#award-box-android-associate_1')
 var aduaneira_1 =document.querySelector('.aduaneira_1')
 var etica_1 =document.querySelector('.etica_1')
 var serviço_1 =document.querySelector('.serviço_1')
@@ -259,14 +259,14 @@ btn_eletronica_industrial.addEventListener('click', function() {
 
 //Universidade simpress
 
-btn_ppct-associate.addEventListener('click', function() {
+btn_ppct_associate.addEventListener('click', function() {
 
     if(ppct-associate_1.style.display === 'block') {
        ppct-associate_1.style.display = 'none';
     } else {
         ppct-associate_1.style.display = 'block';
     }});
-btn_ppct-profissional.addEventListener('click', function() {
+btn_ppct_profissional.addEventListener('click', function() {
 
     if(ppct-profissional_1.style.display === 'block') {
        ppct-profissional_1.style.display = 'none';
@@ -280,14 +280,14 @@ btn_NDD.addEventListener('click', function() {
     } else {
        NDD_1.style.display = 'block';
     }});
-btn_android-profissional.addEventListener('click', function() {
+btn_android_profissional.addEventListener('click', function() {
 
     if(android-profissional_1.style.display === 'block') {
        android-profissional_1.style.display = 'none';
     } else {
        android-profissional_1.style.display = 'block';
     }});
-btn_android-associate.addEventListener('click', function() {
+btn_android_associate.addEventListener('click', function() {
 
     if(android-associate_1.style.display === 'block') {
        android-associate_1.style.display = 'none';
