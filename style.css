@@ -9,7 +9,7 @@
 /* for Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #90d4b6 #263229;
+    scrollbar-color: #6f869e #333333;
   }
 
 /* Chrome, Edge, and Safari */
@@ -18,11 +18,11 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #263229;
+    background: #6f869e;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #90d4b6;
+    background: #487bb6;
     border-radius: 30px;
     border: 2px solid #000000;
 }
@@ -30,15 +30,15 @@
 /* main */
 
 .contact-class a {
-    color: #BBBBBB;
+    color: #333333;
     font-weight: bold;
     text-decoration: none;
 } 
 
 .contact-class a:hover {
-    color: #2ec144;
+    color: #2c3e50;
     text-decoration: underline;
-    text-shadow: #425546 0 0 0.5em;
+    text-shadow: #2c3e50 0 0 0.5em;
 }
 
 .resume-contents {
@@ -51,13 +51,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #263229;
+    background-color: #d3d6d5;
 }
 
 .right-section {
     grid-column: span 6;
     height: 100%;
-    background-color: #425546;
+    background-color: #ebebeb;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -67,21 +67,20 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #4e6655;
+    border-bottom: 2px solid #2c3e50;
     text-align: center;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 10%;
-    border: 8px solid #19311a;
     margin-top: 1rem;
     max-width: 250px;
     
 }
 
 .name {
-    color: #D6DBDF;
+    color: #2c3e50;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -95,7 +94,7 @@
 }
 
 .profession {
-    color: #71dbab;
+    color: #2c3e50;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -106,7 +105,7 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #90d4b6;
+    color: #2c3e50;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -126,7 +125,7 @@
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #d6dbdfaf;
+    color: #333333;
     letter-spacing: 1px;
     font-size: 16px;
 }
@@ -135,7 +134,7 @@
 .references ul li i {
     padding-right: 1rem;
     font-size: 16px;
-    color: #2ec144;
+    color: #2c3e50;
 }
 
 .skills ul {
@@ -143,26 +142,26 @@
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #d6dbdfaf;
+    color: #333333;
     font-size: 16px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
+    
 }
 
 .referance-name {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
     font-size: 16px;
-    color: #71dbab;
+    color: #2c3e50;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .referance-profession {
     font-size: 14px;
-    color: #d6dbdfaf;
+    color: #333333;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -173,7 +172,7 @@
 }
 
 .right-title {
-    color: #90d4b6;
+    color: #2c3e50;
     font-size: 22px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -191,21 +190,12 @@
 .about-me-contents, .site_information {
     font-size: 14px;
     letter-spacing: 1px;
-    color: #F1F8FD;
+    color: #333333;
     margin-bottom: 1rem;
     line-height: 2rem;
 }
 
-.experience-gap, 
-.experience-contents,
-.education-gap,
-.education-contents,
-.awards-gap 
-.awards-contents{
-    grid-template-columns: repeat(3, 1fr);
-    gap: .5rem;
 
-}
 .exp-left,
 .education-left,
 .awards-left {
@@ -222,7 +212,7 @@
 .education-contents,
 .awards-contents {
     display: grid;
-    color: #F1F8FD;
+    color: #333333;
 }
 
 .exp-company-name,
@@ -231,8 +221,8 @@
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
-    color: #F1F8FD;
-    padding: .5rem 0;
+    color: #333333;
+    padding: 0;
 }
 
 .exp-time-period,
@@ -248,7 +238,7 @@
 .awards-name {
     font-size: 20px;
     font-weight: bold;
-    color: #F1F8FD;
+    color: #333333;
     padding: .5rem 0;
 }
 
@@ -259,7 +249,7 @@
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #a5a3a3;
+    border-left: 3px solid #333333;
     padding-left: 5px;
 }
 
@@ -268,20 +258,20 @@
 }
 
 .certificate-class a {
-    color: #90d4b6;
+    color: #2c3e50;
     font-weight: bold;
     text-decoration: none;
 } 
 
 .certificate-class a:hover {
-    color: #2ec144;
+    color: #2c3e50;
     text-decoration: underline;
     text-shadow: #000000 0 0 0.5em;
 }
 
 .certificates-text {
     display: grid;
-    color: #F1F8FD;
+    color: #333333;
 }
 
 .site_information{
@@ -364,6 +354,11 @@
    .exp-position, .education-subject, .awards-name, .certificates-text {
     color: #0f0f0f;
    } */
+
+   .right-section {
+    background-color: #ffffff;
+    
+}
    .name{
     font-size: 15px;
    }
@@ -373,7 +368,7 @@
    }
 
    .contact-info ul li{
-    font-size: 12px;
+    font-size: 11px;
    }
 
    .contact-info ul li i{
@@ -381,7 +376,7 @@
    }
 
    .skills ul li p{
-    font-size: 12px;
+    font-size: 11px;
    }
 
    .fa-github, .fa-linkedin, .fa-envelope, .fa-whatsapp {
@@ -389,7 +384,7 @@
    }
 
    .about-me-contents {
-    line-height: 1.5rem;
+    line-height: 1rem;
     font-size: 12px;
    }
 
@@ -403,7 +398,7 @@
     }
 
     .rigth-section-content {
-        padding: 1rem;
+        padding: 0rem;
     }
     .experience-gap, .experience-contents, .education-gap, .education-contents, .awards-gap .awards-contents {
         gap: 0rem;
