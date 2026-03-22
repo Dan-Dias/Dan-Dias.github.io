@@ -74,8 +74,17 @@ document.addEventListener("DOMContentLoaded", function () {
     setupCheckbox("award-box-faturamento", "#certificado-faturamento");
 
     /* ========================
+       Cerficações e pós
+    ======================== */
+
+    setupCheckbox("award-box-pos", "#certificado-pos");
+    setupCheckbox("award-box-AZ900", "#certificado-AZ900");
+    setupCheckbox("award-box-MS900", "#certificado-MS900");
+
+     /* ========================
        UNIVERSIDADE SIMPRESS
     ======================== */
+
     setupCheckbox("award-box-ppct-associate", "#certificado-ppct-associate");
     setupCheckbox("award-box-ppct-profissional", "#certificado-ppct-profissional");
     setupCheckbox("award-box-NDD", "#certificado-NDD");

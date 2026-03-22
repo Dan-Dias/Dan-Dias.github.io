@@ -173,7 +173,7 @@
 
 .right-title {
     color: #2c3e50;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -218,7 +218,7 @@
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     color: #333333;
