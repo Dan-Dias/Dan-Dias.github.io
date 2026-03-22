@@ -218,11 +218,15 @@
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
     color: #333333;
     padding: 0;
+}
+
+#certificacoes-text{
+    padding: .3rem 0;
 }
 
 .exp-time-period,
