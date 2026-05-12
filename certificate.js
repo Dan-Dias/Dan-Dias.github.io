@@ -50,7 +50,26 @@ document.addEventListener("DOMContentLoaded", function () {
     setupCheckbox("award-box-alura-git", "#certificado-git");
     setupCheckbox("award-box-alura-html", "#certificado-html");
     setupCheckbox("award-box-alura-qa", "#certificado-qa");
+    setupCheckbox("award-box-alura-Engenharia", "#certificado-Engenharia");
+    setupCheckbox("award-box-alura-MDS", "#certificado-MDS");
+    setupCheckbox("award-box-alura-Python", "#certificado-Python");
+    setupCheckbox("award-box-alura-DOM", "#certificado-DOM");
+    setupCheckbox("award-box-alura-Mid", "#certificado-Mid");
+    setupCheckbox("award-box-alura-dinamica", "#certificado-dinamica");
 
+
+
+
+    /* ========================
+       QUALIDADE
+    ======================== */
+    setupCheckbox("award-box-qa-conceito-teste", "#certificado-qa-conceito-teste");
+    setupCheckbox("award-box-qa-Gherkin", "#certificado-qa-Gherkin");
+   setupCheckbox("award-box-qa-ferramentas", "#certificado-qa-ferramentas");
+   setupCheckbox("award-box-qa-js", "#certificado-qa-js");
+   setupCheckbox("award-box-qa-iniciando", "#certificado-qa-iniciando");
+   setupCheckbox("award-box-qa-conc-api", "#certificado-qa-conc-api");
+    
     /* ========================
        TÉCNICO
     ======================== */
