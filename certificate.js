@@ -65,11 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ======================== */
     setupCheckbox("award-box-qa-conceito-teste", "#certificado-qa-conceito-teste");
     setupCheckbox("award-box-qa-Gherkin", "#certificado-qa-Gherkin");
-   setupCheckbox("award-box-qa-ferramentas", "#certificado-qa-ferramentas");
-   setupCheckbox("award-box-qa-js", "#certificado-qa-js");
-   setupCheckbox("award-box-qa-iniciando", "#certificado-qa-iniciando");
-   setupCheckbox("award-box-qa-conc-api", "#certificado-qa-conc-api");
-    setupCheckbox("award-box-qa-js-api", "#certificado-award-box-qa-js-api");
+    setupCheckbox("award-box-qa-ferramentas", "#certificado-qa-ferramentas");
+    setupCheckbox("award-box-qa-js", "#certificado-qa-js");
+    setupCheckbox("award-box-qa-iniciando", "#certificado-qa-iniciando");
+    setupCheckbox("award-box-qa-conc-api", "#certificado-qa-conc-api");
+    setupCheckbox("award-box-qa-js-api", "#certificado-qa-js-api");
     
     /* ========================
        TÉCNICO
