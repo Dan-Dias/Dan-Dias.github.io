@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
    setupCheckbox("award-box-qa-js", "#certificado-qa-js");
    setupCheckbox("award-box-qa-iniciando", "#certificado-qa-iniciando");
    setupCheckbox("award-box-qa-conc-api", "#certificado-qa-conc-api");
+    setupCheckbox("award-box-qa-js-api", "#certificado-award-box-qa-js-api");
     
     /* ========================
        TÉCNICO
